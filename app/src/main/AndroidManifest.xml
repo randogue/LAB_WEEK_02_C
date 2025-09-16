@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LAB_WEEK_02_C">
         <activity
+            android:name=".SingleTopActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            />
+        <activity
+            android:name=".StandardActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
